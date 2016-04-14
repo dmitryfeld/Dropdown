@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0025A36017E6E4B3002F2B4D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0025A35F17E6E4B3002F2B4D /* Cocoa.framework */; };
+		0025A38917E6E532002F2B4D /* DFCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0025A37F17E6E532002F2B4D /* DFCAppDelegate.m */; };
+		0025A38A17E6E532002F2B4D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0025A38117E6E532002F2B4D /* Credits.rtf */; };
+		0025A38B17E6E532002F2B4D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0025A38317E6E532002F2B4D /* InfoPlist.strings */; };
+		0025A38D17E6E532002F2B4D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0025A38817E6E532002F2B4D /* main.m */; };
+		0025A39617E6EB9B002F2B4D /* DFCDropdown.m in Sources */ = {isa = PBXBuildFile; fileRef = 0025A39517E6EB9B002F2B4D /* DFCDropdown.m */; };
+		0025A39917E6EBC8002F2B4D /* DFCBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0025A39817E6EBC8002F2B4D /* DFCBarView.m */; };
+		0025A39F17E6ED82002F2B4D /* logo128.png in Resources */ = {isa = PBXBuildFile; fileRef = 0025A39A17E6ED82002F2B4D /* logo128.png */; };
+		0025A3A017E6ED82002F2B4D /* logo16.png in Resources */ = {isa = PBXBuildFile; fileRef = 0025A39B17E6ED82002F2B4D /* logo16.png */; };
+		0025A3A117E6ED82002F2B4D /* logo32.png in Resources */ = {isa = PBXBuildFile; fileRef = 0025A39C17E6ED82002F2B4D /* logo32.png */; };
+		0025A3A217E6ED82002F2B4D /* logo64.png in Resources */ = {isa = PBXBuildFile; fileRef = 0025A39D17E6ED82002F2B4D /* logo64.png */; };
+		0025A3A317E6ED82002F2B4D /* insignia128v.png in Resources */ = {isa = PBXBuildFile; fileRef = 0025A39E17E6ED82002F2B4D /* insignia128v.png */; };
+		0025A3A617E6F0F7002F2B4D /* DFCBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0025A3A517E6F0F7002F2B4D /* DFCBarViewController.m */; };
+		0025A3A917E6F3C7002F2B4D /* DFCTestBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0025A3A817E6F3C7002F2B4D /* DFCTestBarViewController.m */; };
+		0025A3BE17E79F42002F2B4D /* DFCBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0025A3BD17E79F42002F2B4D /* DFCBackgroundView.m */; };
+		0025A3C117E7C0AF002F2B4D /* DFCDropdownController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0025A3C017E7C0AF002F2B4D /* DFCDropdownController.m */; };
+		0025A3C417E7C1A7002F2B4D /* DFCTestDropdownController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0025A3C317E7C1A7002F2B4D /* DFCTestDropdownController.m */; };
+		0025A3C717E81EBE002F2B4D /* DFCDropdownParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 0025A3C617E81EBE002F2B4D /* DFCDropdownParameters.m */; };
+		0025A3CF17E95EC7002F2B4D /* logo512.png in Resources */ = {isa = PBXBuildFile; fileRef = 0025A3CE17E95EC7002F2B4D /* logo512.png */; };
+		0025A3D117E95ED5002F2B4D /* logo256.png in Resources */ = {isa = PBXBuildFile; fileRef = 0025A3D017E95ED5002F2B4D /* logo256.png */; };
+		0025A3F317E9AB50002F2B4D /* insignia128h.png in Resources */ = {isa = PBXBuildFile; fileRef = 0025A3F217E9AB4F002F2B4D /* insignia128h.png */; };
+		004D984417FFFC9500CF4A2A /* DFCItemAnimationParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 004D984317FFFC9500CF4A2A /* DFCItemAnimationParameters.m */; };
+		004D984E1800F44A00CF4A2A /* DFCAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 004D984D1800F44A00CF4A2A /* DFCAnimatedImageView.m */; };
+		004D98571801165900CF4A2A /* logo16b.png in Resources */ = {isa = PBXBuildFile; fileRef = 004D98511801165900CF4A2A /* logo16b.png */; };
+		004D98581801165900CF4A2A /* logo32b.png in Resources */ = {isa = PBXBuildFile; fileRef = 004D98521801165900CF4A2A /* logo32b.png */; };
+		004D98591801165900CF4A2A /* logo64b.png in Resources */ = {isa = PBXBuildFile; fileRef = 004D98531801165900CF4A2A /* logo64b.png */; };
+		004D985A1801165900CF4A2A /* logo128b.png in Resources */ = {isa = PBXBuildFile; fileRef = 004D98541801165900CF4A2A /* logo128b.png */; };
+		004D985B1801165900CF4A2A /* logo256b.png in Resources */ = {isa = PBXBuildFile; fileRef = 004D98551801165900CF4A2A /* logo256b.png */; };
+		004D985C1801165900CF4A2A /* logo512b.png in Resources */ = {isa = PBXBuildFile; fileRef = 004D98561801165900CF4A2A /* logo512b.png */; };
+		004D985F180116CC00CF4A2A /* DFCAnimatedDropdownItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 004D985E180116CC00CF4A2A /* DFCAnimatedDropdownItem.m */; };
+		0096429517F828B00031F738 /* DFCTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0096429317F828B00031F738 /* DFCTestView.m */; };
+		0096429617F828B00031F738 /* DFCTestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0096429417F828B00031F738 /* DFCTestView.xib */; };
+		00B3F6CB17F91F2C00C0DF5B /* DFCTestTableRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B3F6CA17F91F2C00C0DF5B /* DFCTestTableRecord.m */; };
+		00B3F6CF17F923CF00C0DF5B /* DFCTestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B3F6CD17F923CF00C0DF5B /* DFCTestTableViewController.m */; };
+		00B3F6D017F923CF00C0DF5B /* DFCTestTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00B3F6CE17F923CF00C0DF5B /* DFCTestTableViewController.xib */; };
+		00B3F6EF17FA1B5500C0DF5B /* DFCDropdownItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B3F6E917FA1B5500C0DF5B /* DFCDropdownItem.m */; };
+		00B3F6F117FA1B5500C0DF5B /* DFCItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B3F6EE17FA1B5500C0DF5B /* DFCItem.m */; };
+		00B3F6F517FA1D5F00C0DF5B /* DFCHorizontalDecoration.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B3F6F417FA1D5F00C0DF5B /* DFCHorizontalDecoration.m */; };
+		00B3F70117FA761700C0DF5B /* DFCCloseDecorationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B3F70017FA761700C0DF5B /* DFCCloseDecorationView.m */; };
+		00B3F70717FA7AF800C0DF5B /* cancel32.png in Resources */ = {isa = PBXBuildFile; fileRef = 00B3F70217FA7AF800C0DF5B /* cancel32.png */; };
+		00B3F70817FA7AF800C0DF5B /* cancel64.png in Resources */ = {isa = PBXBuildFile; fileRef = 00B3F70317FA7AF800C0DF5B /* cancel64.png */; };
+		00B3F70917FA7AF800C0DF5B /* cancel128.png in Resources */ = {isa = PBXBuildFile; fileRef = 00B3F70417FA7AF800C0DF5B /* cancel128.png */; };
+		00B3F70A17FA7AF800C0DF5B /* cancel256.png in Resources */ = {isa = PBXBuildFile; fileRef = 00B3F70517FA7AF800C0DF5B /* cancel256.png */; };
+		00B3F70B17FA7AF800C0DF5B /* cancel512.png in Resources */ = {isa = PBXBuildFile; fileRef = 00B3F70617FA7AF800C0DF5B /* cancel512.png */; };
+		00B3F70F17FA7DB500C0DF5B /* cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = 00B3F70C17FA7DB500C0DF5B /* cancel.png */; };
+		00B3F71017FA7DB500C0DF5B /* cancel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00B3F70D17FA7DB500C0DF5B /* cancel@2x.png */; };
+		00B3F71117FA7DB500C0DF5B /* cancel16.png in Resources */ = {isa = PBXBuildFile; fileRef = 00B3F70E17FA7DB500C0DF5B /* cancel16.png */; };
+		00EE57C217F55E9400BEC62A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00EE57C017F55E9400BEC62A /* CoreGraphics.framework */; };
+		00EE57C317F55E9400BEC62A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00EE57C117F55E9400BEC62A /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0025A35C17E6E4B3002F2B4D /* Dropdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dropdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0025A35F17E6E4B3002F2B4D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		0025A36217E6E4B3002F2B4D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		0025A36317E6E4B3002F2B4D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0025A36417E6E4B3002F2B4D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0025A37E17E6E532002F2B4D /* DFCAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFCAppDelegate.h; sourceTree = "<group>"; };
+		0025A37F17E6E532002F2B4D /* DFCAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFCAppDelegate.m; sourceTree = "<group>"; };
+		0025A38217E6E532002F2B4D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = Credits.rtf; sourceTree = "<group>"; };
+		0025A38417E6E532002F2B4D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		0025A38617E6E532002F2B4D /* Dropdown-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Dropdown-Info.plist"; sourceTree = "<group>"; };
+		0025A38717E6E532002F2B4D /* Dropdown-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Dropdown-Prefix.pch"; sourceTree = "<group>"; };
+		0025A38817E6E532002F2B4D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0025A39417E6EB9B002F2B4D /* DFCDropdown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFCDropdown.h; sourceTree = "<group>"; };
+		0025A39517E6EB9B002F2B4D /* DFCDropdown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFCDropdown.m; sourceTree = "<group>"; };
+		0025A39717E6EBC8002F2B4D /* DFCBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFCBarView.h; sourceTree = "<group>"; };
+		0025A39817E6EBC8002F2B4D /* DFCBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFCBarView.m; sourceTree = "<group>"; };
+		0025A39A17E6ED82002F2B4D /* logo128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo128.png; sourceTree = "<group>"; };
+		0025A39B17E6ED82002F2B4D /* logo16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo16.png; sourceTree = "<group>"; };
+		0025A39C17E6ED82002F2B4D /* logo32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo32.png; sourceTree = "<group>"; };
+		0025A39D17E6ED82002F2B4D /* logo64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo64.png; sourceTree = "<group>"; };
+		0025A39E17E6ED82002F2B4D /* insignia128v.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = insignia128v.png; sourceTree = "<group>"; };
+		0025A3A417E6F0F7002F2B4D /* DFCBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFCBarViewController.h; sourceTree = "<group>"; };
+		0025A3A517E6F0F7002F2B4D /* DFCBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFCBarViewController.m; sourceTree = "<group>"; };
+		0025A3A717E6F3C7002F2B4D /* DFCTestBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFCTestBarViewController.h; sourceTree = "<group>"; };
+		0025A3A817E6F3C7002F2B4D /* DFCTestBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFCTestBarViewController.m; sourceTree = "<group>"; };
+		0025A3AA17E77B1D002F2B4D /* DFCDropdownProtocols.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DFCDropdownProtocols.h; sourceTree = "<group>"; };
+		0025A3BC17E79F42002F2B4D /* DFCBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFCBackgroundView.h; sourceTree = "<group>"; };
+		0025A3BD17E79F42002F2B4D /* DFCBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFCBackgroundView.m; sourceTree = "<group>"; };
+		0025A3BF17E7C0AF002F2B4D /* DFCDropdownController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFCDropdownController.h; sourceTree = "<group>"; };
+		0025A3C017E7C0AF002F2B4D /* DFCDropdownController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFCDropdownController.m; sourceTree = "<group>"; };
+		0025A3C217E7C1A7002F2B4D /* DFCTestDropdownController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFCTestDropdownController.h; sourceTree = "<group>"; };
+		0025A3C317E7C1A7002F2B4D /* DFCTestDropdownController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFCTestDropdownController.m; sourceTree = "<group>"; };
+		0025A3C517E81EBE002F2B4D /* DFCDropdownParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFCDropdownParameters.h; sourceTree = "<group>"; };
+		0025A3C617E81EBE002F2B4D /* DFCDropdownParameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFCDropdownParameters.m; sourceTree = "<group>"; };
+		0025A3CE17E95EC7002F2B4D /* logo512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo512.png; sourceTree = "<group>"; };
+		0025A3D017E95ED5002F2B4D /* logo256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo256.png; sourceTree = "<group>"; };
+		0025A3F217E9AB4F002F2B4D /* insignia128h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = insignia128h.png; sourceTree = "<group>"; };
+		004D984217FFFC9500CF4A2A /* DFCItemAnimationParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFCItemAnimationParameters.h; sourceTree = "<group>"; };
+		004D984317FFFC9500CF4A2A /* DFCItemAnimationParameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFCItemAnimationParameters.m; sourceTree = "<group>"; };
+		004D984C1800F44A00CF4A2A /* DFCAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFCAnimatedImageView.h; sourceTree = "<group>"; };
+		004D984D1800F44A00CF4A2A /* DFCAnimatedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFCAnimatedImageView.m; sourceTree = "<group>"; };
+		004D98511801165900CF4A2A /* logo16b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo16b.png; sourceTree = "<group>"; };
+		004D98521801165900CF4A2A /* logo32b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo32b.png; sourceTree = "<group>"; };
+		004D98531801165900CF4A2A /* logo64b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo64b.png; sourceTree = "<group>"; };
+		004D98541801165900CF4A2A /* logo128b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo128b.png; sourceTree = "<group>"; };
+		004D98551801165900CF4A2A /* logo256b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo256b.png; sourceTree = "<group>"; };
+		004D98561801165900CF4A2A /* logo512b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo512b.png; sourceTree = "<group>"; };
+		004D985D180116CC00CF4A2A /* DFCAnimatedDropdownItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFCAnimatedDropdownItem.h; sourceTree = "<group>"; };
+		004D985E180116CC00CF4A2A /* DFCAnimatedDropdownItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFCAnimatedDropdownItem.m; sourceTree = "<group>"; };
+		0096429217F828B00031F738 /* DFCTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFCTestView.h; sourceTree = "<group>"; };
+		0096429317F828B00031F738 /* DFCTestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFCTestView.m; sourceTree = "<group>"; };
+		0096429417F828B00031F738 /* DFCTestView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DFCTestView.xib; sourceTree = "<group>"; };
+		00B3F6C917F91F2C00C0DF5B /* DFCTestTableRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFCTestTableRecord.h; sourceTree = "<group>"; };
+		00B3F6CA17F91F2C00C0DF5B /* DFCTestTableRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFCTestTableRecord.m; sourceTree = "<group>"; };
+		00B3F6CC17F923CF00C0DF5B /* DFCTestTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFCTestTableViewController.h; sourceTree = "<group>"; };
+		00B3F6CD17F923CF00C0DF5B /* DFCTestTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFCTestTableViewController.m; sourceTree = "<group>"; };
+		00B3F6CE17F923CF00C0DF5B /* DFCTestTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DFCTestTableViewController.xib; sourceTree = "<group>"; };
+		00B3F6E817FA1B5500C0DF5B /* DFCDropdownItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFCDropdownItem.h; sourceTree = "<group>"; };
+		00B3F6E917FA1B5500C0DF5B /* DFCDropdownItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFCDropdownItem.m; sourceTree = "<group>"; };
+		00B3F6EC17FA1B5500C0DF5B /* DFCItem+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DFCItem+Private.h"; sourceTree = "<group>"; };
+		00B3F6ED17FA1B5500C0DF5B /* DFCItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFCItem.h; sourceTree = "<group>"; };
+		00B3F6EE17FA1B5500C0DF5B /* DFCItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFCItem.m; sourceTree = "<group>"; };
+		00B3F6F317FA1D5F00C0DF5B /* DFCHorizontalDecoration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFCHorizontalDecoration.h; sourceTree = "<group>"; };
+		00B3F6F417FA1D5F00C0DF5B /* DFCHorizontalDecoration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFCHorizontalDecoration.m; sourceTree = "<group>"; };
+		00B3F6FF17FA761700C0DF5B /* DFCCloseDecorationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFCCloseDecorationView.h; sourceTree = "<group>"; };
+		00B3F70017FA761700C0DF5B /* DFCCloseDecorationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFCCloseDecorationView.m; sourceTree = "<group>"; };
+		00B3F70217FA7AF800C0DF5B /* cancel32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancel32.png; sourceTree = "<group>"; };
+		00B3F70317FA7AF800C0DF5B /* cancel64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancel64.png; sourceTree = "<group>"; };
+		00B3F70417FA7AF800C0DF5B /* cancel128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancel128.png; sourceTree = "<group>"; };
+		00B3F70517FA7AF800C0DF5B /* cancel256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancel256.png; sourceTree = "<group>"; };
+		00B3F70617FA7AF800C0DF5B /* cancel512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancel512.png; sourceTree = "<group>"; };
+		00B3F70C17FA7DB500C0DF5B /* cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancel.png; sourceTree = "<group>"; };
+		00B3F70D17FA7DB500C0DF5B /* cancel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cancel@2x.png"; sourceTree = "<group>"; };
+		00B3F70E17FA7DB500C0DF5B /* cancel16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancel16.png; sourceTree = "<group>"; };
+		00EE57C017F55E9400BEC62A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		00EE57C117F55E9400BEC62A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0025A35917E6E4B3002F2B4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00EE57C217F55E9400BEC62A /* CoreGraphics.framework in Frameworks */,
+				00EE57C317F55E9400BEC62A /* QuartzCore.framework in Frameworks */,
+				0025A36017E6E4B3002F2B4D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0025A35317E6E4B3002F2B4D = {
+			isa = PBXGroup;
+			children = (
+				0025A36517E6E4B3002F2B4D /* Dropdown */,
+				0025A35E17E6E4B3002F2B4D /* Frameworks */,
+				0025A35D17E6E4B3002F2B4D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0025A35D17E6E4B3002F2B4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0025A35C17E6E4B3002F2B4D /* Dropdown.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0025A35E17E6E4B3002F2B4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00EE57C017F55E9400BEC62A /* CoreGraphics.framework */,
+				00EE57C117F55E9400BEC62A /* QuartzCore.framework */,
+				0025A35F17E6E4B3002F2B4D /* Cocoa.framework */,
+				0025A36117E6E4B3002F2B4D /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0025A36117E6E4B3002F2B4D /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0025A36217E6E4B3002F2B4D /* AppKit.framework */,
+				0025A36317E6E4B3002F2B4D /* CoreData.framework */,
+				0025A36417E6E4B3002F2B4D /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		0025A36517E6E4B3002F2B4D /* Dropdown */ = {
+			isa = PBXGroup;
+			children = (
+				0025A37C17E6E532002F2B4D /* assets */,
+				0025A37D17E6E532002F2B4D /* classes */,
+				0025A38017E6E532002F2B4D /* en.lproj */,
+				0025A38517E6E532002F2B4D /* support */,
+			);
+			path = Dropdown;
+			sourceTree = "<group>";
+		};
+		0025A37C17E6E532002F2B4D /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				00B3F70C17FA7DB500C0DF5B /* cancel.png */,
+				00B3F70D17FA7DB500C0DF5B /* cancel@2x.png */,
+				00B3F70E17FA7DB500C0DF5B /* cancel16.png */,
+				00B3F70217FA7AF800C0DF5B /* cancel32.png */,
+				00B3F70317FA7AF800C0DF5B /* cancel64.png */,
+				00B3F70417FA7AF800C0DF5B /* cancel128.png */,
+				00B3F70517FA7AF800C0DF5B /* cancel256.png */,
+				00B3F70617FA7AF800C0DF5B /* cancel512.png */,
+				004D98511801165900CF4A2A /* logo16b.png */,
+				004D98521801165900CF4A2A /* logo32b.png */,
+				004D98531801165900CF4A2A /* logo64b.png */,
+				004D98541801165900CF4A2A /* logo128b.png */,
+				004D98551801165900CF4A2A /* logo256b.png */,
+				004D98561801165900CF4A2A /* logo512b.png */,
+				0025A3CE17E95EC7002F2B4D /* logo512.png */,
+				0025A3D017E95ED5002F2B4D /* logo256.png */,
+				0025A39A17E6ED82002F2B4D /* logo128.png */,
+				0025A39D17E6ED82002F2B4D /* logo64.png */,
+				0025A39C17E6ED82002F2B4D /* logo32.png */,
+				0025A39B17E6ED82002F2B4D /* logo16.png */,
+				0025A39E17E6ED82002F2B4D /* insignia128v.png */,
+				0025A3F217E9AB4F002F2B4D /* insignia128h.png */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		0025A37D17E6E532002F2B4D /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				0025A38F17E6E8C8002F2B4D /* dropdown */,
+				0025A39317E6E8C8002F2B4D /* test */,
+				0025A37E17E6E532002F2B4D /* DFCAppDelegate.h */,
+				0025A37F17E6E532002F2B4D /* DFCAppDelegate.m */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		0025A38017E6E532002F2B4D /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				0025A38117E6E532002F2B4D /* Credits.rtf */,
+				0025A38317E6E532002F2B4D /* InfoPlist.strings */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		0025A38517E6E532002F2B4D /* support */ = {
+			isa = PBXGroup;
+			children = (
+				0025A38617E6E532002F2B4D /* Dropdown-Info.plist */,
+				0025A38717E6E532002F2B4D /* Dropdown-Prefix.pch */,
+				0025A38817E6E532002F2B4D /* main.m */,
+			);
+			path = support;
+			sourceTree = "<group>";
+		};
+		0025A38F17E6E8C8002F2B4D /* dropdown */ = {
+			isa = PBXGroup;
+			children = (
+				0025A39017E6E8C8002F2B4D /* controller */,
+				0025A39117E6E8C8002F2B4D /* model */,
+				0025A39217E6E8C8002F2B4D /* view */,
+			);
+			path = dropdown;
+			sourceTree = "<group>";
+		};
+		0025A39017E6E8C8002F2B4D /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				0025A3A417E6F0F7002F2B4D /* DFCBarViewController.h */,
+				0025A3A517E6F0F7002F2B4D /* DFCBarViewController.m */,
+				0025A3BF17E7C0AF002F2B4D /* DFCDropdownController.h */,
+				0025A3C017E7C0AF002F2B4D /* DFCDropdownController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		0025A39117E6E8C8002F2B4D /* model */ = {
+			isa = PBXGroup;
+			children = (
+				0025A3AA17E77B1D002F2B4D /* DFCDropdownProtocols.h */,
+				0025A3C517E81EBE002F2B4D /* DFCDropdownParameters.h */,
+				0025A3C617E81EBE002F2B4D /* DFCDropdownParameters.m */,
+				004D984217FFFC9500CF4A2A /* DFCItemAnimationParameters.h */,
+				004D984317FFFC9500CF4A2A /* DFCItemAnimationParameters.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		0025A39217E6E8C8002F2B4D /* view */ = {
+			isa = PBXGroup;
+			children = (
+				00B3F6E717FA1B5500C0DF5B /* item */,
+				0025A39417E6EB9B002F2B4D /* DFCDropdown.h */,
+				0025A39517E6EB9B002F2B4D /* DFCDropdown.m */,
+				0025A39717E6EBC8002F2B4D /* DFCBarView.h */,
+				0025A39817E6EBC8002F2B4D /* DFCBarView.m */,
+				0025A3BC17E79F42002F2B4D /* DFCBackgroundView.h */,
+				0025A3BD17E79F42002F2B4D /* DFCBackgroundView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		0025A39317E6E8C8002F2B4D /* test */ = {
+			isa = PBXGroup;
+			children = (
+				00B3F6C817F91F0500C0DF5B /* model */,
+				00B3F6FE17FA75F800C0DF5B /* ui */,
+				0025A3A717E6F3C7002F2B4D /* DFCTestBarViewController.h */,
+				0025A3A817E6F3C7002F2B4D /* DFCTestBarViewController.m */,
+				0025A3C217E7C1A7002F2B4D /* DFCTestDropdownController.h */,
+				0025A3C317E7C1A7002F2B4D /* DFCTestDropdownController.m */,
+				0096429217F828B00031F738 /* DFCTestView.h */,
+				0096429317F828B00031F738 /* DFCTestView.m */,
+				0096429417F828B00031F738 /* DFCTestView.xib */,
+				00B3F6CC17F923CF00C0DF5B /* DFCTestTableViewController.h */,
+				00B3F6CD17F923CF00C0DF5B /* DFCTestTableViewController.m */,
+				00B3F6CE17F923CF00C0DF5B /* DFCTestTableViewController.xib */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		00B3F6C817F91F0500C0DF5B /* model */ = {
+			isa = PBXGroup;
+			children = (
+				00B3F6C917F91F2C00C0DF5B /* DFCTestTableRecord.h */,
+				00B3F6CA17F91F2C00C0DF5B /* DFCTestTableRecord.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		00B3F6E717FA1B5500C0DF5B /* item */ = {
+			isa = PBXGroup;
+			children = (
+				00B3F6F317FA1D5F00C0DF5B /* DFCHorizontalDecoration.h */,
+				00B3F6F417FA1D5F00C0DF5B /* DFCHorizontalDecoration.m */,
+				00B3F6E817FA1B5500C0DF5B /* DFCDropdownItem.h */,
+				00B3F6E917FA1B5500C0DF5B /* DFCDropdownItem.m */,
+				00B3F6EC17FA1B5500C0DF5B /* DFCItem+Private.h */,
+				00B3F6ED17FA1B5500C0DF5B /* DFCItem.h */,
+				00B3F6EE17FA1B5500C0DF5B /* DFCItem.m */,
+				004D984C1800F44A00CF4A2A /* DFCAnimatedImageView.h */,
+				004D984D1800F44A00CF4A2A /* DFCAnimatedImageView.m */,
+				004D985D180116CC00CF4A2A /* DFCAnimatedDropdownItem.h */,
+				004D985E180116CC00CF4A2A /* DFCAnimatedDropdownItem.m */,
+			);
+			path = item;
+			sourceTree = "<group>";
+		};
+		00B3F6FE17FA75F800C0DF5B /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				00B3F6FF17FA761700C0DF5B /* DFCCloseDecorationView.h */,
+				00B3F70017FA761700C0DF5B /* DFCCloseDecorationView.m */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0025A35B17E6E4B3002F2B4D /* Dropdown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0025A37917E6E4B4002F2B4D /* Build configuration list for PBXNativeTarget "Dropdown" */;
+			buildPhases = (
+				0025A35817E6E4B3002F2B4D /* Sources */,
+				0025A35917E6E4B3002F2B4D /* Frameworks */,
+				0025A35A17E6E4B3002F2B4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dropdown;
+			productName = Dropdown;
+			productReference = 0025A35C17E6E4B3002F2B4D /* Dropdown.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0025A35417E6E4B3002F2B4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DFC;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Artel42 Research Inc.";
+			};
+			buildConfigurationList = 0025A35717E6E4B3002F2B4D /* Build configuration list for PBXProject "Dropdown" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0025A35317E6E4B3002F2B4D;
+			productRefGroup = 0025A35D17E6E4B3002F2B4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0025A35B17E6E4B3002F2B4D /* Dropdown */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0025A35A17E6E4B3002F2B4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0025A38A17E6E532002F2B4D /* Credits.rtf in Resources */,
+				0025A38B17E6E532002F2B4D /* InfoPlist.strings in Resources */,
+				004D98571801165900CF4A2A /* logo16b.png in Resources */,
+				0025A39F17E6ED82002F2B4D /* logo128.png in Resources */,
+				004D98581801165900CF4A2A /* logo32b.png in Resources */,
+				004D985B1801165900CF4A2A /* logo256b.png in Resources */,
+				004D985A1801165900CF4A2A /* logo128b.png in Resources */,
+				00B3F70A17FA7AF800C0DF5B /* cancel256.png in Resources */,
+				004D985C1801165900CF4A2A /* logo512b.png in Resources */,
+				00B3F6D017F923CF00C0DF5B /* DFCTestTableViewController.xib in Resources */,
+				0025A3A017E6ED82002F2B4D /* logo16.png in Resources */,
+				0025A3A117E6ED82002F2B4D /* logo32.png in Resources */,
+				0025A3A217E6ED82002F2B4D /* logo64.png in Resources */,
+				0025A3A317E6ED82002F2B4D /* insignia128v.png in Resources */,
+				0096429617F828B00031F738 /* DFCTestView.xib in Resources */,
+				0025A3CF17E95EC7002F2B4D /* logo512.png in Resources */,
+				0025A3D117E95ED5002F2B4D /* logo256.png in Resources */,
+				00B3F70B17FA7AF800C0DF5B /* cancel512.png in Resources */,
+				00B3F70817FA7AF800C0DF5B /* cancel64.png in Resources */,
+				0025A3F317E9AB50002F2B4D /* insignia128h.png in Resources */,
+				00B3F70F17FA7DB500C0DF5B /* cancel.png in Resources */,
+				00B3F71117FA7DB500C0DF5B /* cancel16.png in Resources */,
+				00B3F71017FA7DB500C0DF5B /* cancel@2x.png in Resources */,
+				004D98591801165900CF4A2A /* logo64b.png in Resources */,
+				00B3F70917FA7AF800C0DF5B /* cancel128.png in Resources */,
+				00B3F70717FA7AF800C0DF5B /* cancel32.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0025A35817E6E4B3002F2B4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00B3F6CB17F91F2C00C0DF5B /* DFCTestTableRecord.m in Sources */,
+				00B3F6EF17FA1B5500C0DF5B /* DFCDropdownItem.m in Sources */,
+				004D985F180116CC00CF4A2A /* DFCAnimatedDropdownItem.m in Sources */,
+				0096429517F828B00031F738 /* DFCTestView.m in Sources */,
+				0025A38917E6E532002F2B4D /* DFCAppDelegate.m in Sources */,
+				0025A38D17E6E532002F2B4D /* main.m in Sources */,
+				0025A39617E6EB9B002F2B4D /* DFCDropdown.m in Sources */,
+				0025A39917E6EBC8002F2B4D /* DFCBarView.m in Sources */,
+				004D984417FFFC9500CF4A2A /* DFCItemAnimationParameters.m in Sources */,
+				0025A3A617E6F0F7002F2B4D /* DFCBarViewController.m in Sources */,
+				004D984E1800F44A00CF4A2A /* DFCAnimatedImageView.m in Sources */,
+				0025A3A917E6F3C7002F2B4D /* DFCTestBarViewController.m in Sources */,
+				00B3F6CF17F923CF00C0DF5B /* DFCTestTableViewController.m in Sources */,
+				00B3F6F117FA1B5500C0DF5B /* DFCItem.m in Sources */,
+				0025A3BE17E79F42002F2B4D /* DFCBackgroundView.m in Sources */,
+				0025A3C117E7C0AF002F2B4D /* DFCDropdownController.m in Sources */,
+				0025A3C417E7C1A7002F2B4D /* DFCTestDropdownController.m in Sources */,
+				00B3F70117FA761700C0DF5B /* DFCCloseDecorationView.m in Sources */,
+				0025A3C717E81EBE002F2B4D /* DFCDropdownParameters.m in Sources */,
+				00B3F6F517FA1D5F00C0DF5B /* DFCHorizontalDecoration.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0025A38117E6E532002F2B4D /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0025A38217E6E532002F2B4D /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		0025A38317E6E532002F2B4D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0025A38417E6E532002F2B4D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0025A37717E6E4B4002F2B4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0025A37817E6E4B4002F2B4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0025A37A17E6E4B4002F2B4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dropdown/support/Dropdown-Prefix.pch";
+				INFOPLIST_FILE = "Dropdown/support/Dropdown-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = dfc.Dropdown;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0025A37B17E6E4B4002F2B4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dropdown/support/Dropdown-Prefix.pch";
+				INFOPLIST_FILE = "Dropdown/support/Dropdown-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = dfc.Dropdown;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "234B0E45-B3CA-4FE3-B70D-3B05DAFB5297";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0025A35717E6E4B3002F2B4D /* Build configuration list for PBXProject "Dropdown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0025A37717E6E4B4002F2B4D /* Debug */,
+				0025A37817E6E4B4002F2B4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0025A37917E6E4B4002F2B4D /* Build configuration list for PBXNativeTarget "Dropdown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0025A37A17E6E4B4002F2B4D /* Debug */,
+				0025A37B17E6E4B4002F2B4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0025A35417E6E4B3002F2B4D /* Project object */;
+}
